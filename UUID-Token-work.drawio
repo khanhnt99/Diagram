@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T03:49:58.518Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" version="14.0.1" etag="253IE6wowsmzPo1Tm0d5" type="github"><diagram id="ZLwZqBNZTOsp5Mfj6tZQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-14T04:00:14.334Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="0h8fw8wdsVXRzlplE4vX" version="14.0.1" type="github">
+  <diagram id="ZLwZqBNZTOsp5Mfj6tZQ" name="Page-1">
+    <mxGraphModel dx="803" dy="1565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yAjniPmQgVIEXYcrSxwK-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="10" y="60" width="790" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yAjniPmQgVIEXYcrSxwK-2" value="&lt;font color=&quot;#000000&quot;&gt;Identity&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="30" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yAjniPmQgVIEXYcrSxwK-3" value="&lt;font color=&quot;#000000&quot;&gt;Resource&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="190" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yAjniPmQgVIEXYcrSxwK-4" value="&lt;font color=&quot;#000000&quot;&gt;Assignment&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="355" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yAjniPmQgVIEXYcrSxwK-5" value="&lt;font color=&quot;#000000&quot;&gt;Catalog&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="530" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yAjniPmQgVIEXYcrSxwK-6" value="&lt;font color=&quot;#000000&quot;&gt;Token&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="680" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yAjniPmQgVIEXYcrSxwK-7" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="-30" as="sourcePoint" />
+            <mxPoint x="405" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yAjniPmQgVIEXYcrSxwK-8" value="Request token with:&lt;br&gt;- Username&lt;br&gt;- Password&lt;br&gt;- Project Name" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-30" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yAjniPmQgVIEXYcrSxwK-9" value="LDAP" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="90" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yAjniPmQgVIEXYcrSxwK-10" value="SQL" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="375" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yAjniPmQgVIEXYcrSxwK-11" value="Token" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="630" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yAjniPmQgVIEXYcrSxwK-12" value="" style="endArrow=classic;html=1;exitX=0.18;exitY=1.075;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yAjniPmQgVIEXYcrSxwK-2" target="yAjniPmQgVIEXYcrSxwK-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="230" as="sourcePoint" />
+            <mxPoint x="440" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="48" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yAjniPmQgVIEXYcrSxwK-13" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Chứng thực User&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="170" width="110" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
